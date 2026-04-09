@@ -3,9 +3,10 @@
 using namespace std;
 
 int main() {
-  cout << "Hello World" << endl;
+  int a, b, c;
+  cin >> a >> b >> c;
 
-  printf("hello\n");
+  cout << (a + b) * c << endl;
 
   return 0;
 }

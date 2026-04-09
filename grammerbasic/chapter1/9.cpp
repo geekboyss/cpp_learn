@@ -3,9 +3,11 @@
 using namespace std;
 
 int main() {
-  cout << "Hello World" << endl;
+  float x = 123.12;
 
-  printf("hello\n");
+  int y = (int)x;
+
+  cout << x << " " << y << endl;
 
   return 0;
 }
